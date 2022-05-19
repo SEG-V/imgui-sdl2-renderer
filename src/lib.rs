@@ -68,7 +68,7 @@ impl<'a> Renderer<'a> {
     pub fn render(
         &self,
         canvas: &'a mut WindowCanvas,
-        draw_data: imgui::DrawData,
+        draw_data: &imgui::DrawData,
     ) -> Result<(), String> {
         let (rsx, rsy) = canvas.scale();
         let render_scale = [

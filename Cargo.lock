@@ -44,6 +44,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "imgui-sdl2-renderer"
+version = "0.0.1-alpha0"
+dependencies = [
+ "imgui",
+ "memoffset",
+ "sdl2",
+]
+
+[[package]]
 name = "imgui-sys"
 version = "0.8.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -51,15 +60,6 @@ checksum = "286f5338bd8281e3203de29cc317d123b178f2e565eca5aee770a2048074fdf7"
 dependencies = [
  "cc",
  "chlorine",
-]
-
-[[package]]
-name = "imgui_sdl2_renderer"
-version = "0.0.1-alpha0"
-dependencies = [
- "imgui",
- "memoffset",
- "sdl2",
 ]
 
 [[package]]

@@ -1,5 +1,5 @@
 [package]
-name = "imgui_sdl2_renderer"
+name = "imgui-sdl2-renderer"
 version = "0.0.1-alpha0"
 edition = "2021"
 authors = ["SEG-V <segmentationviolator@gmail.com>"]
