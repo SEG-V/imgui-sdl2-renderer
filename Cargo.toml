@@ -2,6 +2,8 @@
 name = "imgui_sdl2_renderer"
 version = "0.0.1-alpha0"
 edition = "2021"
+authors = ["SEG-V <segmentationviolator@gmail.com>"]
+license = "UNLICENSE"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
